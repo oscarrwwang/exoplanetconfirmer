@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Data (keep directory structure)
+data/raw/*
+data/raw_small/*
+data/processed/*
+data/labels/*
+!data/**/.gitkeep
+
+# Lightkurve / astropy caches
+.lightkurve/
+.astropy/
+
+# Model artifacts and outputs
+checkpoints/*
+outputs/*
+!checkpoints/.gitkeep
+!outputs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+runs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
