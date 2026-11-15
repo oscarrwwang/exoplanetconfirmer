@@ -13,7 +13,7 @@ vet it with physical false-positive tests, and run it on new light curves.
 > **Development status.** The project currently runs on a ~200-star **development** dataset
 > (100 confirmed-planet hosts + 100 false-positive hosts, 222 KOIs). It proves the software
 > pipeline works end to end. The smoke-test CNN (2 epochs) and the Random Forest / XGBoost
-> numbers from this dataset are **not** scientific results; final performance must come from
+> numbers from this dataset are **not** scientific results by themselves; final performance is from
 > the larger dataset (see [Development vs scientific workflow](#development-vs-scientific-workflow)).
 
 ---
