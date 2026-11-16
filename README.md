@@ -14,6 +14,9 @@ planets OR false positives.
 >Development Status: This project currently runs on a small sample of 200 stars. (100 confirmed planets
 >and 100 false-positive hosts, 222 KOIs). This proves that the existing software in the CNN
 >works from end to end, however the finder mechanism has not been integrated **at all**.
+>THE NEXT AIM OF THE PROJECT: The next aim of the project is to find unknown transits from Kepler Light
+>Curves, acting as both an exoplanet finder, and an exoplanet confirmer. We will test this firstly, by
+>running the pre-existing pipeline through a larger data set of 1000 stars.
 
 
 
