@@ -10,11 +10,13 @@ vet it with physical false-positive tests, and run it on new light curves.
 > KOI table; at inference they come from a KOI/TCE table (`--koi-table`) or are supplied on
 > the command line (`--period --t0 --duration-hours`).
 
-> **Development status.** The project currently runs on a ~200-star **development** dataset
-> (100 confirmed-planet hosts + 100 false-positive hosts, 222 KOIs). It proves the software
-> pipeline works end to end. The smoke-test CNN (2 epochs) and the Random Forest / XGBoost
-> numbers from this dataset are **not** scientific results by themselves; final performance is from
-> the larger dataset (see [Development vs scientific workflow](#development-vs-scientific-workflow)).
+
+>Development Status: This project currently runs on a small sample of 200 stars. (100 confirmed planets
+>and 100 false-positive hosts, 222 KOIs). This proves that the existing software in the CNN
+>works from end to end, however the finder mechanism has not been integrated **at all**.
+
+Final performance is from the the larger dataset, see: [Development vs Scientific workflow] 
+((#development-vs-scientific-workflow)).
 
 ---
 
