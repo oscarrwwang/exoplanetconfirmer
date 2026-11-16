@@ -22,6 +22,8 @@ planets OR false positives.
 >>eclipsing binaries or stellar variability.
 >>
 >>Amongst the 1000 stars, we will look at known transits in Kepler Light Curves that possess multiple KOIs
+>>and see if our current CNN manages to successfully and consistently filter them out.
+>>
 >>
 >>After running through and stress testing our existing pipeline, we will then begin the construction
 >>of the Finder mechanism:
