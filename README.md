@@ -19,7 +19,8 @@ planets OR false positives.
 
 >>This is the next steps of the project:
 >>We will scale the dataset to 1000 stars, keeping a 1:1 ratio of confirmed planets : false positives e.g.
->>eclipsing binaries or stellar variability
+>>eclipsing binaries or stellar variability.
+>>
 >>Amongst the 1000 stars, we will look at known transits in Kepler Light Curves that possess multiple KOIs
 >>
 >>After running through and stress testing our existing pipeline, we will then begin the construction
