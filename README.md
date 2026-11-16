@@ -1,22 +1,21 @@
 # exoplanet-cnn
 
-Classify NASA Kepler transit candidates as **planet** or **false positive** with an
-Astronet-style two-view 1D CNN, compare it against classical baselines, explain its decisions,
-vet it with physical false-positive tests, and run it on new light curves.
 
-> **Detection vs classification.** The CNN does **not** search raw light curves for unknown
-> transits. It classifies an *already identified* periodic transit signal, so every candidate
-> needs a **period, mid-transit epoch and duration**. During training these come from the NASA
-> KOI table; at inference they come from a KOI/TCE table (`--koi-table`) or are supplied on
-> the command line (`--period --t0 --duration-hours`).
+This is a hobby project draws data from NASA's publicly available data to classify transit candidates as 
+planets OR false positives. 
 
+>This Computer Neural Network (CNN) does not yet act as a finder mechanism for unknown transits.
+>(This is the next aim of the project)
+>Instead, it classifies already identified transit signals, so every candidate entered into the
+>pipeline must have a period, mid transit epoch and a duration.
+>During its training, these came from NASA's KOI table or are given by the command line --period --t0
+>--duration-hours.
 
 >Development Status: This project currently runs on a small sample of 200 stars. (100 confirmed planets
 >and 100 false-positive hosts, 222 KOIs). This proves that the existing software in the CNN
 >works from end to end, however the finder mechanism has not been integrated **at all**.
 
-Final performance is from the the larger dataset, see: [Development vs Scientific workflow] 
-((#development-vs-scientific-workflow)).
+
 
 ---
 
